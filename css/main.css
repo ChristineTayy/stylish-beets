@@ -7,9 +7,42 @@ html {
 }
 
 h1, h2 {
-  #3f1622;
+  font-family: "PT Sans", sans-serif;
+  font-size: 1.125rem;
+  font-weight: bold;
+  line-height: 1.5;
+  color: #3f1622;
 }
 
-a {
-  #8f2440;
+nav {
+  list-style-type: none;
+  font-family: "PT Sans", sans-serif;
+  color: #8f2440;
+}
+
+header p:first-child {
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+blockquote p {
+  font-family: "PT Serif", serif;
+  font-size: 1.5rem;
+  font-style: italic;
+}
+h2 ol {
+  list-style-type: lower-alpha;
+}
+
+dl dt {
+  font-weight: bold;
+}
+
+aside ul {
+  list-style-type: circle;
+}
+
+a:hover {
+  color: #3f1622;
+  text-decoration: underline;
 }
