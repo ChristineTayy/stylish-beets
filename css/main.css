@@ -20,6 +20,7 @@ nav {
   list-style-type: none;
   font-family: "PT Sans", sans-serif;
   color: #8f2440;
+  line-height: 1.5;
 }
 
 a {
@@ -29,6 +30,7 @@ a {
 
 img {
   width: 100%;
+  line-height: 1.5;
 }
 
 .caption {
